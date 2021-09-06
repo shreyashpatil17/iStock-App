@@ -1,5 +1,8 @@
 # iStock-App
-An Android App developed by me as my Final Year Diploma Project. This app is used to manage your inventory with ease. This app comes with functions like barcode scanning, Firebase integration for online usage, remote access, detailed product info and many more. This app's UI is modern and sleek. Also if you are going to use this as your project then integrate your Firebase with this app as It is Pre-Integrated with mine and your data will be on my Firebase Dashboard.
+An Android App developed by me as my Final Year Diploma Project. This app is used to manage your inventory with ease. This app comes with functions like barcode scanning, Firebase integration for online usage, remote access, detailed product info and many more. This app's UI is modern and sleek. 
+
+Also if you are going to use this as your project then integrate your Firebase with this app as It is Pre-Integrated with mine and your data will be on my Firebase Dashboard.
+
 I am also adding the Images of This app's UI here for your convinience.
 
 SplashScreen
