@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "81778736370",
+    "project_id": "istock-2021",
+    "storage_bucket": "istock-2021.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:81778736370:android:a17a10a9c938e669b6646b",
+        "android_client_info": {
+          "package_name": "com.example.istock"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "81778736370-ko6gm7edvfo3f4o7p14ajguupofjfrg6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQF7ZRvnKcvzOrgdSv4Wrgndsrk8GkfXg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "81778736370-ko6gm7edvfo3f4o7p14ajguupofjfrg6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

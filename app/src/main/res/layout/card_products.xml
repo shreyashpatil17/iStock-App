@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="312dp"
+    android:layout_height="152dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="4dp"
+    app:cardCornerRadius="13dp"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginTop="16dp">
+
+    <TextView
+        android:id="@+id/roundedBarcodeContainer"
+        android:layout_width="108dp"
+        android:layout_height="32dp"
+        android:background="@drawable/ic_card_rec_brcode" />
+
+    <TextView
+        android:layout_width="312dp"
+        android:layout_height="0.3dp"
+        android:background="@drawable/ic_card_line"
+        android:layout_marginTop="32.1dp"
+        android:layout_marginBottom="119.6dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cardProductBarcode"
+        android:textSize="14sp"
+        android:fontFamily="@font/regular"
+        android:textColor="@color/white"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="4dp"
+        />
+
+    <TextView
+        android:id="@+id/cardProductName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="128dp"
+        android:layout_marginTop="2.5dp"
+        android:fontFamily="@font/regular"
+        android:textColor="@color/dblue"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_width="9.15dp"
+        android:layout_height="12.82dp"
+        android:background="@drawable/ic_cardrupee"
+        android:layout_marginTop="11dp"
+        android:layout_marginStart="242dp"/>
+
+    <TextView
+        android:id="@+id/cardProductPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="255dp"
+        android:layout_marginTop="2dp"
+        android:fontFamily="@font/regular"
+        android:textColor="@color/dblue"
+        android:textSize="16sp" />
+
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:layout_width="81dp"
+        android:layout_height="81dp"
+        android:id="@+id/cardProductImage"
+        android:layout_marginTop="38.2dp"
+        android:layout_marginBottom="32.5dp"
+        android:layout_marginStart="9dp"
+        android:layout_marginEnd="222dp"
+        />
+
+    <TextView
+        android:id="@+id/cardProductQty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="118dp"
+        android:layout_marginBottom="12.7dp"
+        android:fontFamily="@font/bold"
+        android:textColor="@color/dblue"
+        android:textSize="16sp" />
+
+    <Button
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/cardProductEditBtn"
+        android:background="@drawable/ic_cardedit"
+        android:layout_marginStart="272dp"
+        android:layout_marginTop="112dp"
+        android:layout_marginBottom="0dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/regular"
+        android:textSize="12sp"
+        android:text="MANF Name :"
+        android:layout_marginTop="39.7dp"
+        android:layout_marginStart="110dp"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/regular"
+        android:textSize="12sp"
+        android:text="DIST Name :"
+        android:layout_marginTop="62dp"
+        android:layout_marginStart="110dp"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/regular"
+        android:textSize="12sp"
+        android:text="DIST Number :"
+        android:layout_marginTop="84dp"
+        android:layout_marginStart="110dp"
+        android:textColor="@color/black"
+        />
+
+    <Button
+        android:id="@+id/cardProductDeleteBtn"
+        android:layout_width="15dp"
+        android:layout_height="19.29dp"
+        android:layout_marginStart="288dp"
+        android:layout_marginTop="85dp"
+        android:background="@drawable/ic_carddelete" />
+
+    <TextView
+        android:id="@+id/cardProductManName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="195dp"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/bold"
+        android:textColor="@color/black"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/cardProductDistName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="195dp"
+        android:layout_marginTop="63dp"
+        android:fontFamily="@font/bold"
+        android:textColor="@color/black"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/cardProductDistNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="195dp"
+        android:layout_marginTop="85dp"
+        android:fontFamily="@font/bold"
+        android:textColor="@color/black"
+        android:textSize="12sp" />
+
+
+</androidx.cardview.widget.CardView>

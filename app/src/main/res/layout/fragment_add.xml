@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lblue"
+    tools:context=".Fragments.Add">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/addProductBtn"
+            android:layout_width="320dp"
+            android:layout_height="96dp"
+            android:layout_marginTop="180dp"
+            android:background="@drawable/add_button_shape"
+            android:fontFamily="@font/bold"
+            android:gravity="center"
+            android:text="Add a Product"
+            android:textAllCaps="false"
+            android:textSize="24dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.493"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/addStockInButton"
+            android:layout_width="320dp"
+            android:layout_height="96dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/add_button_shape"
+            android:fontFamily="@font/bold"
+            android:gravity="center"
+            android:text="Add Stock-In Detail"
+            android:textAllCaps="false"
+            android:textSize="24dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.493"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/addProductBtn" />
+
+        <Button
+            android:id="@+id/addStockOutButton"
+            android:layout_width="320dp"
+            android:layout_height="96dp"
+            android:background="@drawable/add_button_shape"
+            android:fontFamily="@font/bold"
+            android:gravity="center"
+            android:text="Add Stock-Out Detail"
+            android:textAllCaps="false"
+            android:textSize="24dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.493"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/addStockInButton"
+            app:layout_constraintVertical_bias="0.049" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="312dp"
+    android:layout_height="152dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:elevation="4dp"
+    app:cardCornerRadius="13dp"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginTop="16dp">
+
+    <TextView
+        android:id="@+id/roundedBarcodeContainer"
+        android:layout_width="108dp"
+        android:layout_height="32dp"
+        android:background="@drawable/ic_card_rec_brcode" />
+
+    <TextView
+        android:layout_width="312dp"
+        android:layout_height="0.3dp"
+        android:background="@drawable/ic_card_line"
+        android:layout_marginTop="32.1dp"
+        android:layout_marginBottom="119.6dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cardStockInBarcode"
+        android:textSize="14sp"
+        android:fontFamily="@font/regular"
+        android:textColor="@color/white"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="4dp"
+        />
+
+    <TextView
+        android:id="@+id/cardStockInProductName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="146dp"
+        android:layout_marginTop="2.5dp"
+        android:fontFamily="@font/semibold"
+        android:textColor="@color/dblue"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/cardStockInTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="176dp"
+        android:layout_marginTop="34dp"
+        android:fontFamily="@font/semibold"
+        android:textColor="@color/blue"
+        android:textSize="12sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/regular"
+        android:textSize="14sp"
+        android:text="Product Price    :"
+        android:layout_marginTop="61dp"
+        android:layout_marginStart="57dp"
+        android:textColor="@color/black"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/regular"
+        android:textSize="14sp"
+        android:text="Product Quantity    :"
+        android:layout_marginTop="84dp"
+        android:layout_marginStart="34dp"
+        android:textColor="@color/black"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/regular"
+        android:textSize="14sp"
+        android:text="Total Price    :"
+        android:layout_marginTop="123dp"
+        android:layout_marginStart="76dp"
+        android:textColor="@color/black"
+        />
+    <TextView
+        android:id="@+id/cardStockInTotalPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/semibold"
+        android:textSize="14sp"
+        android:layout_marginTop="123dp"
+        android:layout_marginStart="176dp"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:id="@+id/cardStockInProductQuantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/semibold"
+        android:textSize="14sp"
+        android:layout_marginTop="86dp"
+        android:layout_marginStart="176dp"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:id="@+id/cardStockInProductPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="176dp"
+        android:layout_marginTop="62dp"
+        android:fontFamily="@font/semibold"
+        android:textColor="@color/black"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/cardStockInDeleteBtn"
+        android:layout_width="20dp"
+        android:layout_height="25.71dp"
+        android:layout_marginStart="275dp"
+        android:layout_marginTop="111dp"
+        android:background="@drawable/ic_carddelete" />
+
+</androidx.cardview.widget.CardView>

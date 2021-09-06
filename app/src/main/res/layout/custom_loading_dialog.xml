@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="312dp" 
+    android:layout_height="152dp"
+    android:elevation="8dp"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginTop="16dp">
+
+    <ProgressBar
+        android:id="@+id/loadingProgress"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center_horizontal"
+        android:indeterminateDrawable="@drawable/progress"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Loading"
+        android:fontFamily="@font/semibold"
+        android:textSize="28sp"
+        android:textColor="@color/dblue"
+        android:layout_marginTop="88dp"
+        android:layout_gravity="center_horizontal"/>
+
+
+</androidx.cardview.widget.CardView>

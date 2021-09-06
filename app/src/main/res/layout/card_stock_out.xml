@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="312dp"
+    android:layout_height="152dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:elevation="4dp"
+    app:cardCornerRadius="13dp"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginTop="16dp">
+
+    <TextView
+        android:id="@+id/roundedBarcodeContainer"
+        android:layout_width="108dp"
+        android:layout_height="32dp"
+        android:background="@drawable/ic_card_rec_brcode" />
+
+    <TextView
+        android:layout_width="312dp"
+        android:layout_height="0.3dp"
+        android:background="@drawable/ic_card_line"
+        android:layout_marginTop="32.1dp"
+        android:layout_marginBottom="119.6dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cardStockOutBarcode"
+        android:textSize="14sp"
+        android:fontFamily="@font/regular"
+        android:textColor="@color/white"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="4dp"
+        />
+
+
+    <Button
+        android:id="@+id/cardStockOutDeleteBtn"
+        android:layout_width="20dp"
+        android:layout_height="25.71dp"
+        android:layout_marginStart="275dp"
+        android:layout_marginTop="111dp"
+        android:background="@drawable/ic_carddelete" />
+    <TextView
+        android:id="@+id/cardStockOutProductName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="146dp"
+        android:layout_marginTop="2.5dp"
+        android:fontFamily="@font/semibold"
+        android:textColor="@color/dblue"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/cardStockOutTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="176dp"
+        android:layout_marginTop="34dp"
+        android:fontFamily="@font/semibold"
+        android:textColor="@color/blue"
+        android:textSize="12sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/regular"
+        android:textSize="12sp"
+        android:text="Customer Name    :"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="18dp"
+        android:textColor="@color/black"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/regular"
+        android:textSize="12sp"
+        android:text="Customer Number    :"
+        android:layout_marginTop="66dp"
+        android:layout_marginStart="6dp"
+        android:textColor="@color/black"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/regular"
+        android:textSize="12sp"
+        android:text="Product Price    :"
+        android:layout_marginTop="82dp"
+        android:layout_marginStart="34dp"
+        android:textColor="@color/black"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/regular"
+        android:textSize="12sp"
+        android:text="Product Quantity    :"
+        android:layout_marginTop="98dp"
+        android:layout_marginStart="14dp"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/regular"
+        android:textSize="14sp"
+        android:text="Total Price    :"
+        android:layout_marginTop="131dp"
+        android:layout_marginStart="99dp"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:id="@+id/cardStockOutCustomerName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="146dp"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/semibold"
+        android:textColor="@color/black"
+        android:textSize="12sp" />
+    <TextView
+        android:id="@+id/cardStockOutCustomerNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="146dp"
+        android:layout_marginTop="66dp"
+        android:fontFamily="@font/semibold"
+        android:textColor="@color/black"
+        android:textSize="12sp" />
+    <TextView
+        android:id="@+id/cardStockOutProductPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="146dp"
+        android:layout_marginTop="82dp"
+        android:fontFamily="@font/semibold"
+        android:textColor="@color/black"
+        android:textSize="12sp" />
+    <TextView
+        android:id="@+id/cardStockOutProductQuantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="146dp"
+        android:layout_marginTop="98dp"
+        android:fontFamily="@font/semibold"
+        android:textColor="@color/black"
+        android:textSize="12sp" />
+    <TextView
+        android:id="@+id/cardStockOutTotalPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="199dp"
+        android:layout_marginTop="131dp"
+        android:fontFamily="@font/semibold"
+        android:textColor="@color/black"
+        android:textSize="12sp" />
+
+</androidx.cardview.widget.CardView>

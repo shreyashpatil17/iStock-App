@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lblue"
+    tools:context=".AddStockOut">
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="328dp"
+        android:layout_height="608dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="112dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="60dp"
+        android:background="@drawable/stockin_rec"
+        android:gravity="center_horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.484"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="96dp"
+        android:layout_marginBottom="32dp"
+        android:fontFamily="@font/bold"
+        android:text="ADD STOCK OUT"
+        android:textColor="@color/dblue"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/backkBtn"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="314dp"
+        android:background="@drawable/ic_back_btn"
+        android:backgroundTint="@color/dblue"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.048"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_goneMarginTop="24dp" />
+
+    <TextView
+        android:id="@+id/stockInDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="92dp"
+        android:fontFamily="@font/regular"
+        android:textColor="@color/blue"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView10"
+        app:layout_goneMarginTop="29dp" />
+
+    <EditText
+        android:id="@+id/stockOutCustName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="72dp"
+        android:background="@drawable/edittextt"
+        android:elevation="8dp"
+        android:gravity="center"
+        android:hint="Enter Customer Name"
+        android:textColorHint="@color/lblue"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView10"
+        app:layout_goneMarginTop="83dp" />
+
+    <EditText
+        android:id="@+id/stockOutCustNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="72dp"
+        android:background="@drawable/edittextt"
+        android:elevation="8dp"
+        android:gravity="center"
+        android:hint="Enter Customer Number"
+        android:inputType="phone"
+        android:textColorHint="@color/lblue"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/stockOutCustName"
+        app:layout_goneMarginTop="83dp" />
+
+    <Button
+        android:id="@+id/submitStockOut"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/ic_icon_save"
+        app:layout_constraintBottom_toBottomOf="@+id/textView10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Spinner
+        android:id="@+id/stockOutSpinner"
+        android:layout_width="295dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="56dp"
+        android:autofillHints="Select Product"
+        android:elevation="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/stockOutCustNo"
+        app:layout_goneMarginTop="99dp" />
+
+    <EditText
+        android:id="@+id/stockOutQty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="72dp"
+        android:background="@drawable/edittextt"
+        android:elevation="8dp"
+        android:gravity="center"
+        android:hint="Enter Product Quantity"
+        android:inputType="numberDecimal"
+        android:textColorHint="@color/lblue"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/stockOutSpinner"
+        app:layout_goneMarginTop="83dp" />
+
+    <EditText
+        android:id="@+id/stockOutPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="72dp"
+        android:background="@drawable/edittextt"
+        android:elevation="8dp"
+        android:gravity="center"
+        android:hint="Enter Product Price"
+        android:inputType="numberDecimal"
+        android:textColorHint="@color/lblue"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/stockOutQty"
+        app:layout_goneMarginTop="83dp" />
+
+    <Button
+        android:id="@+id/stockOutCalculatePrice"
+        android:layout_width="130dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="121dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="121dp"
+        android:background="@drawable/cal_button_shape"
+        android:elevation="8dp"
+        android:fontFamily="@font/semibold"
+        android:text="Calculate Price"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/stockOutPrice" />
+
+    <TextView
+        android:id="@+id/stockOutDispPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="106dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="106dp"
+        android:fontFamily="@font/bold"
+        android:textColor="@color/dblue"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/stockOutCalculatePrice" />
+
+    <Switch
+        android:id="@+id/creditSwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="100dp"
+        android:checked="false"
+        android:fontFamily="@font/semibold"
+        android:text="Credit"
+        android:textColor="@color/moneyGreen"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.156"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/stockOutDispPrice" />
+
+    <EditText
+        android:id="@+id/creditAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="72dp"
+        android:background="@drawable/edittextt"
+        android:elevation="8dp"
+        android:gravity="center"
+        android:hint="Enter Credit Amount"
+        android:inputType="numberDecimal"
+        android:textColorHint="@color/lblue"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toBottomOf="@+id/creditSwitch"
+        app:layout_goneMarginTop="83dp" />
+
+    <EditText
+        android:id="@+id/hideStockOutText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
